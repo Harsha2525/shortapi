@@ -1,0 +1,111 @@
+.topnav {
+  background-color: #cbf8bd;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: left;
+  overflow: hidden;
+  margin: 0;
+  padding-top: 2%;
+  padding-bottom: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+.topnav a.split {
+  
+  float: left;
+
+  color: white;
+
+  
+}
+.grid-container{
+display: flex;
+flex-direction: row;
+}
+.grid-element{
+  align-items: center;
+}
+.grid-element > h1 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.grid-element > p {
+  text-align: center;
+  font-size: large;
+  padding-bottom: 60px;
+}
+.grid-element > button {
+display: block;
+margin: 0 auto;
+background-color: aqua;
+
+
+}
+.shorten-container{
+padding: 3%;
+display:flex;
+flex-direction: row;
+}
+.shorten-element{
+align-items: center;
+padding-left: 500px;
+}
+.shorten-element1 > button {
+  background-color: aqua;
+}
+
+.Appinfo > h1{
+  text-align: center;
+}
+.Appinfo > p{
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.card-element {
+align-items:center;
+box-shadow: 2px 5px rgb(134, 132, 132);
+}
+
+.Boost{
+  width: 100%;
+  background-color: rgb(38, 8, 108);
+  margin-top: 50px;
+  margin-bottom: 0px;
+  
+}
+.Boost > h1 {
+  text-align: center;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+.Boost > .container {
+  text-align: center;
+  color: aliceblue;
+
+}
+.footer-container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(131, 233, 211);
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  color: aliceblue;
+}
+.footer-element {
+  float: left;
+
+}
+.footer-element1{
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
